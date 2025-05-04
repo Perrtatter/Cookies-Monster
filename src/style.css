@@ -1,0 +1,55 @@
+#mydiv {
+    position: absolute;
+    display: none;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+}
+
+#mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.hack_button{
+    border: None;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    background-color: #2196F3;
+    color: white;
+}
+
+.hack_button:active{
+    background-color: white;
+    color: blue;
+}
+
+.close_button{
+    background-color: red;
+    color:white;
+    cursor: pointer;
+}
+
+.show_windows{
+    background-color:blue;
+    height:80px;
+    width: 80px;
+    cursor: pointer;
+    border:rgb(255, 255, 255);
+    border-style: solid;
+    border-radius:50px;
+    padding-right: 70px;
+}
+
+.button_img{
+    height:60px;
+    width: 60px;
+    border:white;
+    border-style:solid;
+    border-radius: 50px;
+}

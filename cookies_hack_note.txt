@@ -1,0 +1,29 @@
+cookies clicker js hack command :
+
+Game.Earn(10) = +10 cookies 
+Game.Spend(10) = -10 cookies
+Game.cookies = cookies variable
+Game.cookiesEarned  = total earned cookies
+Game.lumps = sugar lumps
+Cursor = 15
+Grandma = 100 
+Farm = 1.100
+
+
+
+
+
+
+    Game.Earn(amount): Replace amount with a number to gain cookies. For maximum cookies, use 10**303 or Infinity.
+    Game.Spend(amount): Withdraw cookies by specifying the amount.
+    Game.cookies: Directly modify your cookie count using the assignment operator, e.g., Game.cookies = 2.
+    Game.cookiesEarned: This variable tracks the total cookies earned.
+    Game.lumps: Manipulate your sugar lumps with this variable.
+
+
+___________________________________________
+infinite cookies = Game.cookies = 10 ** 303
+reset cookies = Game.cookies = 0 
+earn cookies = Game.Earn(number)
+earn sugar lumps = Game.lumps = number
+show earned cookies = alert(Game.cookiesEarned)

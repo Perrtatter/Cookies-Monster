@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script/windows.js"></script>
+    <script src="script/payloads.js"></script>
     <title>Cookies Monster</title>
 </head>
 <body>
@@ -17,9 +19,9 @@
         </div>
         <hr>
         <label for="earn_cookies_input">Enter number : </label>
-        <input type="number"  ="earn_cookies_input">
+        <input type="number"  id="cookies_input" class="cookies_input">
         <br>
-        <button class="hack_button">Earn Cookies</button>
+        <button class="hack_button" onclick="earn_cookies()">Earn Cookies</button>
         <button class="hack_button">Change Cookies</button>
         <hr>
         <button class="hack_button">Infinite Cookies</button>
@@ -44,5 +46,4 @@
       <img class="button_img" src="logo.png">
     </button>
   </body>
-<script src="script/windows.js"></script>
 </html>

@@ -8,3 +8,4 @@ A no download free and open source Cookies Clicker hacking client
 juste copy-paste the intall file content in dev console 
 ```
 
+<img src="assets/cookies_monster.gif" width="75%">

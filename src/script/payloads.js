@@ -1,5 +1,4 @@
 function earn_cookies(){
-
     let cookies_to_earn = document.getElementById("cookies_input").value;
 
     alert("You have earn " + cookies_to_earn + " cookies");
@@ -7,7 +6,6 @@ function earn_cookies(){
 }
 
 function change_cookies(){
-
     let new_cookies_number = document.getElementById("cookies_input").value;
 
     alert("You have " + new_cookies_number  + " cookies");
@@ -15,22 +13,21 @@ function change_cookies(){
 }
 
 function infinite_cookies(){
-
+    alert("You have infinite cookies");
     Game.cookies = 10 ** 303
+
 }
 
 function reset_cookies(){
-
+    alert("You have reset your cookies")
     Game.cookies = 0
 }
 
 function earn_sugar_lumps(sugar_lumps_to_earn){
-
     Game.lumps = Game.lumps + sugar_lumps_to_earn
 }
 
 function change_sugar_lumps(sugar_lumps_new_number){
-
     Game.lumps = sugar_lumps_new_number
 }
 
